@@ -166,4 +166,4 @@ if __name__ == '__main__':
 		res = getAllInfo(pageNum)
 		dic = parsePageContent(res)
 		#print dic['html']
-		parseWeiboComment(startTime,pageNum,dic['html'])
+		parseWeiboComment(startTime,pageNum,dic['html']) 
